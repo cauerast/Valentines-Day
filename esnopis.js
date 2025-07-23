@@ -11,13 +11,13 @@ document.addEventListener("DOMContentLoaded", () => {
 
     // When "no" is pressed...
     noButton.addEventListener("click", () => {
-        if (noScale > 0) {
+        if(noScale > 0){
             noScale -= 0.2;
             noButton.style.transform = `scale(${noScale})`;
         }
 
-        // Se o botão "Não" ficar muito pequeno, ele desaparece
-        if (noScale <= 0) {
+        // Se o botão Não ficar muito pequeno, ele desaparece
+        if(noScale <= 0){
             noButton.style.display = "none";
         }
     });
