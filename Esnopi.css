@@ -1,0 +1,73 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: rgb(65, 51, 58); 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    text-align: center;
+    height:500px;
+    width: 700px;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    color: black; 
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+#message {
+    font-size: 24px;
+    color: #333;
+    margin: 20px 0;
+}
+
+.btn-container {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: rgb(29, 29, 29);
+    color: white;
+    transition: transform 0.2s, background-color 0.3s;
+    margin-top: 20px; 
+}
+
+button:hover {
+    background-color: #2c2c2c;
+    transform: scale(1.1);
+}
+
+#yes-btn {
+    background-color: rgb(29, 29, 29);
+}
+
+#yes-btn:hover {
+    background-color: rgb(61, 61, 61);
+}
+
+#no-btn {
+    background-color: rgb(28, 28, 28);
+}
+
+#no-btn:hover {
+    background-color: rgb(61, 61, 61);
+}
+
+
